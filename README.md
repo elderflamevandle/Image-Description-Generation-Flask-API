@@ -33,7 +33,8 @@ source venv/bin/activate
 
 You can use a tool like Postman or cURL to interact with the API. Here's an example using cURL:
 ```
-curl -X POST -F 'image=@/path/to/your/image.jpg' http://localhost:5000/generate_desciption
+curl -X POST -F 'image=@/path/to/your/image.jpg'
+http://localhost:5000/generate_desciption
 ```
 
 This will send a POST request to the `/generate_desciption` endpoint with the image file attached. The API will respond with a JSON object containing the generated description.
